@@ -1,1 +1,2 @@
-# robotframework
+## robotframework
+#Robot Framework is an open source test automation framework for acceptance testing and acceptance test-driven development. It follows different test case styles – keyword-driven, behaviour-driven and data-driven for writing test cases. This feature makes it very easy to understand. Test cases are written using keyword style in a tabular format. Robot Framework provides good support for external libraries, tools that are open source and can be used for automation. The most popular library used with Robot Framework is Selenium Library used for web development & UI testing.
