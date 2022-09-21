@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.0 on win32)" generated="20220921 23:34:42.291" rpa="false" schemaversion="3">
+<suite id="s1" name="StorePage" source="C:\Users\97253\PycharmProjects\RobotWorkshop\Tests\StorePage.robot">
+<test id="s1-t1" name="TC1" line="12">
+<kw name="Open website" library="Keywords">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220921 23:34:42.742" level="INFO">Opening browser 'chrome' to base url 'https://atid.store/store/'.</msg>
+<status status="PASS" starttime="20220921 23:34:42.742" endtime="20220921 23:34:46.471"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220921 23:34:46.471" endtime="20220921 23:34:46.596"/>
+</kw>
+<status status="PASS" starttime="20220921 23:34:42.742" endtime="20220921 23:34:46.597"/>
+</kw>
+<kw name="Select From List By Index" library="SeleniumLibrary">
+<arg>orderby</arg>
+<arg>3</arg>
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<msg timestamp="20220921 23:34:46.599" level="INFO">Selecting options from selection list 'orderby' by index 3.</msg>
+<status status="PASS" starttime="20220921 23:34:46.598" endtime="20220921 23:34:47.285"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>10 s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220921 23:34:57.297" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20220921 23:34:47.286" endtime="20220921 23:34:57.297"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220921 23:34:57.297" endtime="20220921 23:34:59.659"/>
+</kw>
+<status status="PASS" starttime="20220921 23:34:42.742" endtime="20220921 23:34:59.660"/>
+</test>
+<status status="PASS" starttime="20220921 23:34:42.295" endtime="20220921 23:34:59.664"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="StorePage">StorePage</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20220921 23:34:42.730" level="ERROR">Error in file 'C:\Users\97253\PycharmProjects\RobotWorkshop\Resources\StoreResources\Keywords.robot' on line 3: Resource file 'Resources\StoreResources\Keywords.robot' does not exist.</msg>
+</errors>
+</robot>
